@@ -1,6 +1,6 @@
 ### GGUF model caller
 
-[<img src="https://raw.githubusercontent.com/calcuis/chatgpt-model-selector/master/callgg.gif" width="128" height="128">](https://github.com/calcuis/chatgpt-model-selector/blob/main/callgg.gif)
+[<img src="https://raw.githubusercontent.com/calcuis/chatgpt-model-selector/master/callgg.gif" width="128" height="128">](https://github.com/calcuis/callgg)
 [![Static Badge](https://img.shields.io/badge/callgg-release-yellow?logo=github)](https://github.com/calcuis/callgg/releases)
 
 This package is a GGUF (GPT-Generated Unified Format) file/model caller.
