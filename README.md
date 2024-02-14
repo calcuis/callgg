@@ -36,11 +36,11 @@ callgg save https://huggingface.co/calcuis/chat/resolve/main/chat.gguf
 For coding
 [code.gguf] (file size: around 3GB or more)
 ```
-callgg save https://huggingface.co/calcuis/chat/resolve/main/code.gguf
+callgg save https://huggingface.co/calcuis/code_mini/resolve/main/code.gguf
 ```
 For health/medical advice
 [medi.gguf] (file size: around 3GB or more)
 ```
-callgg save https://huggingface.co/calcuis/chat/resolve/main/medi.gguf
+callgg save https://huggingface.co/calcuis/medi_mini/resolve/main/medi.gguf
 ```
 ***those are all experimental models; no guarantee on quality
