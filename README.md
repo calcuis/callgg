@@ -31,7 +31,8 @@ GGUF file(s) in the same directory will automatically be detected by the caller,
 ```
 callgg save [url]
 ```
-You might need the certifi package to make this feature works; install it by: `pip install certifi` (once only) if you don't have.
+You might need the ssl certificate to make this feature works; install it by: `pip install certifi` if you don't have;
+or you can upgrade your llama-core by: `pip install llama-core --upgrade` then it will come with those packages (certificate, new loading bar module, etc.).
 #### sample model(s) available to download (try out)
 For general purpose
 [chat.gguf] (file size: around 2GB or less)
