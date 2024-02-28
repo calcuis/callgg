@@ -27,6 +27,11 @@ GGUF file(s) in the same directory will automatically be detected by the caller,
 [<img src="https://raw.githubusercontent.com/calcuis/chatgpt-model-selector/master/demo.gif" width="350" height="280">](https://github.com/calcuis/chatgpt-model-selector/blob/main/demo.gif)
 [<img src="https://raw.githubusercontent.com/calcuis/chatgpt-model-selector/master/demo1.gif" width="350" height="280">](https://github.com/calcuis/chatgpt-model-selector/blob/main/demo1.gif)
 
+#### save feature
+```
+callgg save [url]
+```
+You might need the certifi package to make this feature works; install it by: `pip install certifi` (once only) if you don't have.
 #### sample model(s) available to download (try out)
 For general purpose
 [chat.gguf] (file size: around 2GB or less)
