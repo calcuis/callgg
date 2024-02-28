@@ -33,7 +33,7 @@ For general purpose
 ```
 callgg save https://huggingface.co/calcuis/chat/resolve/main/chat.gguf
 ```
-For coding
+For coding assistance
 [code.gguf] (file size: around 3GB or more)
 ```
 callgg save https://huggingface.co/calcuis/code_mini/resolve/main/code.gguf
@@ -42,5 +42,15 @@ For health/medical advice
 [medi.gguf] (file size: around 3GB or more)
 ```
 callgg save https://huggingface.co/calcuis/medi_mini/resolve/main/medi.gguf
+```
+For law/legal opinion
+[law.gguf] (size: around 3GB or more)
+```
+callgg save chttps://huggingface.co/calcuis/law_mini/resolve/main/law.gguf
+```
+For wealth/financial plan
+[finance.gguf] (size: around 3GB or more)
+```
+callgg save https://huggingface.co/calcuis/gguf/resolve/main/finance.gguf
 ```
 ***those are all experimental models; no guarantee on quality
