@@ -5,7 +5,7 @@ __version__="1.0.3"
 def __main__():
     import urllib.request
     from os.path import basename
-    from llama_core.rich.progress import Progress # generic module adopted (lama_core >=0.1.2)
+    from llama_core.rich.progress import Progress # generic module adopted (lama_core >=0.1.2 required)
 
     def get_file_size(url):
         with urllib.request.urlopen(url) as response:
@@ -15,7 +15,7 @@ def __main__():
     def format_size(size_bytes):
         return f"{size_bytes / (1024 * 1024):.2f} MB"
 
-    def clone_file(url): # no more invalid certificate issues; certifi required (llama_core >=0.1.9)
+    def clone_file(url): # no more invalid certificate issues (llama_core >=0.1.9 required)
         try:
             file_size = get_file_size(url)
             filename = basename(url)
